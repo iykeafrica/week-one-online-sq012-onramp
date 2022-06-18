@@ -177,14 +177,51 @@ body {
   border-radius: 10px;
 }
 
-td, th {
+th {
+  color: #6a6c6d;
+  font-size: 12px; 
+}
+
+td {
   color: #050533;
-  padding: 10px;
+  font-size: 14px;
+}
+
+.selected-bill { 
+  /* background-color: #ce9494;  */
+  border: 1px solid #4a636f; 
+  border-radius: 5px;
+}
+
+/* .download-button {
+  width: 10%; 
+  padding: 5px;
+  background-color: #ffffff; 
+  border: 1px solid #6a6c6d; 
+  border-radius: 5px;
+} */
+
+.th {
+  width: 33.3%; 
+  float:left;
+  font-size: 12px; 
+  text-align: left;
+  color: #6a6c6d;
+  font-weight: bolder;
+}
+
+.tr {
+  font-weight: bolder;
+  text-align: left;
+  width: 33.3%; 
+  float:left;
+  color: #050533;
   font-size: 14px;
 }
 
 .download-button {
-  width: 10%; 
+  padding: 2px;
+  width: auto; 
   background-color: #ffffff; 
   border: 1px solid #6a6c6d; 
   border-radius: 5px;
