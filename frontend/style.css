@@ -126,7 +126,7 @@ body {
   position: relative;
   margin-top: 10px;
   margin-left: 35px;
-  bottom: -23.5%;
+  bottom: -39.4%;
   float: left;
 }
 
@@ -134,7 +134,7 @@ body {
   position: relative;
   margin-left: 9px;
   margin-top: 10px;
-  bottom: -24%;
+  bottom: -40%;
   font-size: small;
   text-align: left;
   color: #6a6c6d;
@@ -243,8 +243,47 @@ td {
   color: #dba09e;
 }
 
-#color-text-four {
+.load-more {
   color: #ea4c3c;
+  font-size: 14px; 
+  margin-top: 15px;
+}
+
+.visa-button {
+  padding: 5px;
+  width: 5%; 
+  text-align: center;
+  color: #050533;
+  font-size: large;
+  font-weight: bolder;
+  font-style: italic;
+  background-color: #ffffff; 
+  border: 1px solid #050533; 
+  border-radius: 5px;
+  float:left;
+}
+
+.visa-text {
+  margin-top: 10px;
+  text-align: left;
+  width: 59%; 
+  float:left;
+  margin-left: 10px;
+  color: #6a6c6d;
+  font-size: 14px;
+}
+
+.remove-button {
+  margin-top: 10px;
+  padding: 5px;
+  width: 8%; 
+  text-align: center;
+  color: #050533;
+  font-size: 12px;
+  background-color: #ffffff; 
+  border: 1px solid #6a6c6d; 
+  border-radius: 5px;
+  float:left;
 }
 
 #color-text-five {
