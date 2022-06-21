@@ -98,7 +98,7 @@ body {
   margin-top: 5px;
   border-left: 4px solid #ea4c3c;
   height: 35px;
-  position:absolute;
+  position: absolute;
   border-radius: 10px;
 }
 
@@ -141,10 +141,6 @@ body {
   float: left;
 }
 
-/* #color-text-two {
-  color: #393a62;
-} */
-
 .page {
   margin-left: 22.5%;
   position: absolute;
@@ -153,16 +149,16 @@ body {
   height: 82%;
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
-  background-color: #ffffff;  
+  background-color: #ffffff;
   float: left;
 }
 
-.list {
-  width: 80%; 
+.menu-selected-display {
+  width: 80%;
   float: left;
 }
 
-.details {
+.card-details {
   margin-top: 12%;
   float: left;
 }
@@ -177,9 +173,42 @@ body {
   border-radius: 10px;
 }
 
+.cancel-sub-button {
+  font-size: 12px;
+  margin-right: 25px;
+  background-color: #ea4c3c;
+  border: 1px solid white;
+  text-align: center;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.th-container {
+  padding: 2px;
+}
+
+.first-row {
+  margin-top: 25px
+}
+
+.second-row {
+  margin-top: 55px;
+  width: auto;
+  height: 25px;
+  box-shadow: 0 3px 10px rgba(161, 155, 155, 0.2);
+}
+
+.third-row {
+  margin-top: 10px
+}
+
+.fourth-row {
+  margin-top: 40px;
+}
+
 th {
   color: #6a6c6d;
-  font-size: 12px; 
+  font-size: 12px;
 }
 
 td {
@@ -187,9 +216,9 @@ td {
   font-size: 14px;
 }
 
-.selected-bill { 
+.selected-bill {
   /* background-color: #ce9494;  */
-  border: 1px solid #4a636f; 
+  border: 1px solid #4a636f;
   border-radius: 5px;
 }
 
@@ -202,9 +231,9 @@ td {
 } */
 
 .th {
-  width: 33.3%; 
-  float:left;
-  font-size: 12px; 
+  width: 33.3%;
+  float: left;
+  font-size: 12px;
   text-align: left;
   color: #6a6c6d;
   font-weight: bolder;
@@ -213,22 +242,48 @@ td {
 .tr {
   font-weight: bolder;
   text-align: left;
-  width: 33.3%; 
-  float:left;
+  width: 33.3%;
+  float: left;
   color: #050533;
   font-size: 14px;
 }
 
 .download-button {
   padding: 2px;
-  width: auto; 
-  background-color: #ffffff; 
-  border: 1px solid #6a6c6d; 
+  width: auto;
+  background-color: #ffffff;
+  border: 1px solid #6a6c6d;
   border-radius: 5px;
 }
 
 .text-plan {
   margin-left: 25px;
+}
+
+.billing {
+  font-size: 25px
+}
+
+.order-history {
+  font-size: 14px;
+  margin-bottom: 0px
+}
+
+.billing-info {
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 50px
+}
+
+.payment {
+  font-size: 14px;
+  margin-bottom: 0px
+}
+
+.payment-info {
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 15px
 }
 
 .page-strong-color {
@@ -245,29 +300,29 @@ td {
 
 .load-more {
   color: #ea4c3c;
-  font-size: 14px; 
+  font-size: 14px;
   margin-top: 15px;
 }
 
 .visa-button {
   padding: 5px;
-  width: 5%; 
+  width: 6%;
   text-align: center;
   color: #050533;
   font-size: large;
   font-weight: bolder;
   font-style: italic;
-  background-color: #ffffff; 
-  border: 1px solid #050533; 
+  background-color: #ffffff;
+  border: 1px solid #050533;
   border-radius: 5px;
-  float:left;
+  float: left;
 }
 
 .visa-text {
   margin-top: 10px;
   text-align: left;
-  width: 59%; 
-  float:left;
+  width: 59%;
+  float: left;
   margin-left: 10px;
   color: #6a6c6d;
   font-size: 14px;
@@ -276,14 +331,18 @@ td {
 .remove-button {
   margin-top: 10px;
   padding: 5px;
-  width: 8%; 
+  width: 8%;
   text-align: center;
   color: #050533;
   font-size: 12px;
-  background-color: #ffffff; 
-  border: 1px solid #6a6c6d; 
+  background-color: #ffffff;
+  border: 1px solid #6a6c6d;
   border-radius: 5px;
-  float:left;
+  float: left;
+}
+
+.f-12 {
+  font-size: 12px;
 }
 
 #color-text-five {
